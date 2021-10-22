@@ -1,0 +1,9 @@
+npm i -g create-react-app
+create-react-app exercicio
+npm start
+
+
+calculadora
+
+create-react-app calculadora
+npm start

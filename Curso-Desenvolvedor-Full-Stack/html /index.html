@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercicios HTML</title>
+	<style>
+#conteudo {
+
+	padding: 30px 0px;
+}
+
+	</style>
+</head>
+<body>
+
+	<header>Execicios html</header>
+
+
+	<nav>
+		
+		<a href="excercicios/teste.html" wm-link="">00 - texte</a> |
+		<a href="excercicios/testo1.html">01 - texto 1</a> |
+		<a href="excercicios/texto2.html">02 - texto 2</a> |
+		<a href="excercicios/listas.html">03 - listas</a>  |
+		<a href="excercicios/listaAninhada.html">04 - listas Alinhada</a> |
+		<a href="excercicios/links.html">05 - links</a> |
+		<a href="excercicios/tabela.html">06 - tabela</a> |
+		<a href="excercicios/form/form.html">07 - formulario</a> |
+		<a href="excercicios/imagens.html">08 - imagens</a> |
+		<a href="excercicios/video.html">09 - Video</a> |
+		<a href="excercicios/tagsnaovisuais.html">10 - tagsnaovisuais </a> |
+		
+
+
+	</nav>
+
+	<section id="conteudo">
+		
+	</section>
+
+	<footer>
+		Curso de web moderno
+	</footer>
+
+<!--funcao de evento do onclick-->
+
+	<script type="text/javascript">
+		
+		document.querySelectorAll('a').forEach(link =>{
+
+			const conteudo = document.getElementById('conteudo')
+
+			link.onclick = function(e){
+
+				e.preventDefault()
+
+
+				fetch(link.href)
+				.then(resp => resp.text())
+				.then(html => conteudo.innerHTML = html)
+			}
+
+		})
+	</script>
+</body>
+</html>

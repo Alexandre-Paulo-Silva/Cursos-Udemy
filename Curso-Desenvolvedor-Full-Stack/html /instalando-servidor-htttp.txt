@@ -1,0 +1,12 @@
+
+
+sudo npm i -g http-server
+
+
+http-server
+
+http-server .
+
+http-server -c10  garda o cache por 10 segundof
+
+http-server c-1 . nao armazena os arquivos em cache

@@ -1,0 +1,17 @@
+Processo A 3 funcoes 
+
+Midware A ----> Midware B -----> Midware C     (resquest , response)
+    next()        next()                |
+                                        |
+                            <-----------|
+                            eviar a resposta (ou nao)
+
+
+Processo A (1 Função)
+
+                Passo A  
+                Passo B
+            --->Passo C
+
+
+

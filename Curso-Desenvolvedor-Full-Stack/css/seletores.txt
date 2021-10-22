@@ -1,0 +1,6 @@
+seletores 
+
+* = toda a pagina
+elemento  = body html div
+.class = nome das classes
+
