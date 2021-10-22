@@ -1,0 +1,76 @@
+
+
+
+quando Testar ? ---------------------->nivel de teste-----------> teste de regressao 
+                                                                  teste beta
+                                                                  teste alfa
+                                                                  teste de aceitacao
+                                                                  teste de sistema
+                                                                  teste de integracao 
+                                                                  teste de unidade
+
+                                                            
+como Testar ? --------> tecnicas de teste ------> caixa branca --------> teste de cobertura
+                                         \                               teste de caminhos
+                                          \                              teste de comandos  
+                                           \                             teste de condicoes 
+                                            \
+                                             \
+                                              \---caixa preta----------> teste baseado em cenarios
+                                                                         teste baseado em casos de uso
+                                                                         analise de valores limites 
+
+
+o que Testar ? --------> tipos de teste  ------------------------> teste de funcionalidade
+                                                                   teste de interface
+                                                                   teste de desempenho
+                                                                   teste de usabilidade
+                                                                   teste de seguranca
+                                                                   
+
+                                                                 teste de funcionalidade
+                                                                 teste de desempenho
+                                                                 teste de usabilidade
+                                                                 teste de seguranca
+                                                                 teste de portabilidade
+                                                                 teste de stress
+                                                                 
+
+tecnicas de boas praticas tecnicas
+
+proj4me
+jira
+bugzilla
+trac
+
+testar limites
+
+formularios
+campos em branco
+campos com valores invalidos
+email invalidos
+quantidade de caracteres
+messagens de erros coerentes
+
+caulculos 
+valores positivos 
+valores negativos
+zero 
+inytervalos fechados e abertos
+acima do limite maximo e abaixo do limite minimo
+
+pense como um usuario
+
+
+criacao dos criteirios de teste de aceitacao
+
+criacao dos cenarios de teste de sistema
+
+codificao 
+
+teste de unindade 
+    teste de integracao
+
+
+
+
